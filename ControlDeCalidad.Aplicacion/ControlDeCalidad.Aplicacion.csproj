@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Adaptadores\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControlDeCalidad.AccesoADatos\ControlDeCalidad.AccesoADatos.csproj" />
+    <ProjectReference Include="..\ControlDeCalidad.Dominio\ControlDeCalidad.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

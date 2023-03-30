@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlDeCalidad.ServiciosDistribuidos", "ControlDeCalidad.ServiciosDistribuidos\ControlDeCalidad.ServiciosDistribuidos.csproj", "{3E65F441-9309-4207-ADAC-B58E1A0460DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Servicios Distribuidos", "1. Servicios Distribuidos", "{984D80D5-55C8-423E-9673-6059A9E35474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Dominio", "3. Dominio", "{F421E9E8-8C0E-444C-B340-79F384F89111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Acceso a Datos", "4. Acceso a Datos", "{321CDB1D-71C7-49AB-8654-CE9A30C3D082}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlDeCalidad.Dominio", "ControlDeCalidad.Dominio\ControlDeCalidad.Dominio.csproj", "{84EE18E8-0452-4FA8-A589-7C93B1BAE86F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlDeCalidad.AccesoADatos", "ControlDeCalidad.AccesoADatos\ControlDeCalidad.AccesoADatos.csproj", "{9D7AA436-0759-4A8A-8178-3B4DF3255EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{649177B3-C518-4659-A4A0-E0306D4F29B2}"
+	ProjectSection(SolutionItems) = preProject
+		Notas.txt = Notas.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Aplicacion", "2. Aplicacion", "{0501664E-9A48-4E9D-B720-C75E4AEDEE14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlDeCalidad.Aplicacion", "ControlDeCalidad.Aplicacion\ControlDeCalidad.Aplicacion.csproj", "{9F875CD7-E3A2-407C-A81F-0577AE48DBEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A. Pruebas", "A. Pruebas", "{3C3BF781-C654-4196-9063-41AF9406CAB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlDeCalidad.Pruebas", "ControlDeCalidad.Pruebas\ControlDeCalidad.Pruebas.csproj", "{D39D150B-3662-43EB-9790-2B77E86FF6B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E65F441-9309-4207-ADAC-B58E1A0460DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E65F441-9309-4207-ADAC-B58E1A0460DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E65F441-9309-4207-ADAC-B58E1A0460DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E65F441-9309-4207-ADAC-B58E1A0460DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EE18E8-0452-4FA8-A589-7C93B1BAE86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EE18E8-0452-4FA8-A589-7C93B1BAE86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EE18E8-0452-4FA8-A589-7C93B1BAE86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EE18E8-0452-4FA8-A589-7C93B1BAE86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7AA436-0759-4A8A-8178-3B4DF3255EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7AA436-0759-4A8A-8178-3B4DF3255EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7AA436-0759-4A8A-8178-3B4DF3255EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7AA436-0759-4A8A-8178-3B4DF3255EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F875CD7-E3A2-407C-A81F-0577AE48DBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F875CD7-E3A2-407C-A81F-0577AE48DBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F875CD7-E3A2-407C-A81F-0577AE48DBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F875CD7-E3A2-407C-A81F-0577AE48DBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39D150B-3662-43EB-9790-2B77E86FF6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39D150B-3662-43EB-9790-2B77E86FF6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39D150B-3662-43EB-9790-2B77E86FF6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39D150B-3662-43EB-9790-2B77E86FF6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E65F441-9309-4207-ADAC-B58E1A0460DF} = {984D80D5-55C8-423E-9673-6059A9E35474}
+		{84EE18E8-0452-4FA8-A589-7C93B1BAE86F} = {F421E9E8-8C0E-444C-B340-79F384F89111}
+		{9D7AA436-0759-4A8A-8178-3B4DF3255EA9} = {321CDB1D-71C7-49AB-8654-CE9A30C3D082}
+		{9F875CD7-E3A2-407C-A81F-0577AE48DBEA} = {0501664E-9A48-4E9D-B720-C75E4AEDEE14}
+		{D39D150B-3662-43EB-9790-2B77E86FF6B6} = {3C3BF781-C654-4196-9063-41AF9406CAB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CC2874F-11CA-4043-A319-D0FC3CF8C63D}
+	EndGlobalSection
+EndGlobal
